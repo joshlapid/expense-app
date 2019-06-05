@@ -6,7 +6,7 @@ import { connect } from 'react-redux';
 export const Header = ({ startLogout }) => (
     <header>
         <h1>Expense App</h1>
-        <NavLink to="/" activeClassName="is-active" exact={true}>Home</NavLink>
+        <NavLink to="/dashboard" activeClassName="is-active">Home</NavLink>
         <NavLink to="/create" activeClassName="is-active">Create</NavLink>
         <button onClick={startLogout}>Logout</button>
     </header>
