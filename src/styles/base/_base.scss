@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     // sets rem to base 10px;
     font-size: 62.5%;
@@ -6,6 +10,8 @@ html {
 body {
     font-family: Helvetica, Arial, sans-serif;
     font-size: $m-size;
+    color: $dark-grey;
+    line-height: 1.6;
 }
 
 button {
@@ -18,4 +24,9 @@ button:disabled {
 
 .is-active {
     font-weight: bold;
+}
+
+// Arrowfix
+.DateRangePickerInput_arrow_svg {
+    width: 75px !important;
 }
