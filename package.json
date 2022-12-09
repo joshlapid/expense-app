@@ -21,7 +21,7 @@
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "babel-polyfill": "^6.26.0",
     "css-loader": "^2.1.1",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "firebase": "^6.0.2",
     "history": "^4.9.0",
     "live-server": "^1.2.1",
